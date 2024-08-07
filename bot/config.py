@@ -1,5 +1,5 @@
-TOKEN = ''
-BOT_ID = 
+TOKEN = '6481541511:AAFBRlrnoiifMpsJiyy7JiTHwfsy-l3kfbo'
+BOT_ID = 7125923652
 # Настройки подключения к базе данных
 DB = {
     'host': '',
