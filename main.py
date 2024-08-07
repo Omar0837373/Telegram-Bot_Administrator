@@ -29,13 +29,13 @@ from bot.text_messages import text_messages, random_mess
 log = logging.getLogger('aiogram')
 logging.basicConfig(level=logging.INFO)
 
-admins = 'creator', 'administrator'
+admins = '7125923652', '7282748854'
 
 loop = asyncio.get_event_loop()
 loop.set_task_factory(context.task_factory)
 
 storage = MemoryStorage()
-bot = Bot(token=TOKEN, loop=loop, parse_mode=ParseMode.MARKDOWN)
+bot = Bot(token=6481541511:AAFBRlrnoiifMpsJiyy7JiTHwfsy-l3kfbo, loop=loop, parse_mode=ParseMode.MARKDOWN)
 
 dp = Dispatcher(bot, storage=storage)
 
